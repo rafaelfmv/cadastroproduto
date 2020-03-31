@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Dashboard</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="robots" content="all,follow"/>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="font-awesome/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/font.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,700"/>
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet"/>
+    <link rel="stylesheet" href="css/custom.css"/>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+</head>
+<body>
+<header class="header">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+
+        </div>
+    </nav>
+</header>
+<div class="d-flex align-items-stretch">
+    <nav id="sidebar">
+        <div class="sidebar-header d-flex align-items-center">
+        </div><span class="heading">Main</span>
+    </nav>
+    <div class="page-content">
+        <div class="page-header">
+            <div class="container-fluid">
+                <h2 class="h5 no-margin-bottom">Cadastro de Produtos</h2>
+            </div>
+        </div>
+        <section class="margin-bottom-sm">
+            <div class="'container-fluid'">
+                <div class="tableBodyHTMLtableBodyHTMLtableBodyHTML">
+                        <div class="block">
+                            <div class="title"><strong class="d-block">Cadastrar Produto</strong><span class="d-block"></span></div>
+                            <div class="block-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label class="form-control-label">Nome</label>
+                                        <input type="text" placeholder="nome" class="form-control" id="nome"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-control-label">Descrição</label>
+                                        <input type="text" placeholder="descricao" class="form-control" id="descricao"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-control-label">Valor</label>
+                                        <input type="number" placeholder="valor" class="form-control" id="valor"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="button" value="Register" class="btn btn-primary" id="registerBtn"/>
+                                    </div>
+                                </form>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="no-padding-top">
+            <div class="container-fluid">
+                <div class="row">
+                        <div class="block">
+                            <div class="title"><strong>Produtos Cadastrados</strong></div>
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                <tr>
+                                    <th>Codigo</th>
+                                    <th>Nome</th>
+                                    <th>Descricao</th>
+                                    <th>valor</th>
+                                </tr>
+                                </thead>
+                                <tbody id="tableBodyHTML">
+                                </tbody>
+                            </table>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <footer class="footer">
+            <div class="footer__block block no-margin-bottom">
+                <div class="container-fluid text-center">
+                    <p class="no-margin-bottom">2020 &copy; Favaro Tecnology</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"> </script>
+<script src="bootstrap/bootstrap.min.js"></script>
+<script src="jquery.cookie/jquery.cookie.js"> </script>
+<script src="charts/Chart.min.js"></script>
+<script src="js/charts-home.js"></script>
+<script src="js/front.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
